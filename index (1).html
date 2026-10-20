@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>City Food 28</title>
+
+<!-- =========================================================
+     QR CODE DYNAMIQUE - City Food 28
+
+     POUR CHANGER LA DESTINATION DU QR CODE :
+     remplace uniquement le lien après "url=" sur la ligne
+     ci-dessous, puis clique sur "Commit changes".
+     ========================================================= -->
+<meta id="destination" http-equiv="refresh" content="0; url=https://www.cityfood28.fr/">
+
+<script>
+  // Ne rien modifier ici : le lien est lu automatiquement depuis la ligne au-dessus.
+  var lien = document.getElementById("destination").content.split("url=")[1].trim();
+  window.location.replace(lien);
+</script>
+<style>
+  body { font-family: system-ui, sans-serif; text-align: center; padding: 40px 16px; background: #fff; color: #222; }
+  a { color: #c0392b; font-weight: bold; }
+</style>
+</head>
+<body>
+  <p>Redirection vers City Food 28…</p>
+  <p><a id="lien" href="https://www.cityfood28.fr/">Cliquez ici si rien ne se passe</a></p>
+  <script>document.getElementById("lien").href = lien;</script>
+</body>
+</html>
